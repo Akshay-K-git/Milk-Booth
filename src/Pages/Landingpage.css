@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+TC:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+TC:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Caveat:wght@400..700&family=Dancing+Script:wght@400..700&family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+TC:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Caveat:wght@400..700&family=Cookie&family=Dancing+Script:wght@400..700&family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lalezar&family=Noto+Sans+TC:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=SUSE:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Caveat:wght@400..700&family=Cookie&family=Dancing+Script:wght@400..700&family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lalezar&family=Noto+Sans+TC:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=SUSE:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.section1{
+    background-image: url('./mainbg.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 90vh;
+    margin-top: -60px;
+    overflow: hidden;
+    object-fit: cover;
+    display: grid;
+    grid-template-columns: 1140px 200px ;
+    z-index: 300;
+
+
+}
+
+.content{
+    width: 1140px;
+    max-width: 80%;
+    margin-top: 15%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    /* border: 2px solid; */
+    box-sizing: border-box;
+    padding-right: 25%;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.408);
+
+}
+
+.content .slogan{
+    font-weight: bold;
+    /* font-family: "Orbitron", sans-serif; */
+    font-family: "Lalezar", system-ui;
+    font-size: 4em;
+    color: white;
+    list-style: 1.3em;
+    letter-spacing: 6PX;
+}
+.content .des{
+    font-family: "Caveat", cursive;
+    font-size: 27px;
+    text-shadow: none;
+   
+}
+.content .buttons{
+    display: grid;
+    grid-template-columns: repeat(2,130px);
+    grid-template-rows: 40px;
+    gap: 5px;
+    margin-top: 20px;
+}
+.content button{
+    border: none;
+    letter-spacing: 3px;
+    font-family:"Poppins", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.238);
+
+}
+.content button:nth-child(2){
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+
+/* From Uiverse.io by nazeer004 */ 
+.loader {
+    position: relative;
+    top: 390px;
+  }
+  
+  .loader span {
+    position: absolute;
+    color: #fff;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    letter-spacing: 5px;
+  }
+  .logoround{
+    position: absolute;
+    top: 260px;
+    right: 320px;
+  }
+  .loader span:nth-child(1) {
+    color: white;
+    -webkit-text-stroke: 0.3px rgb(38, 153, 254);
+    font-family: "PT Serif", serif;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.238);
+
+  }
+  
+  .loader span:nth-child(2) {
+    color: rgb(0, 140, 221);
+    -webkit-text-stroke: 1px rgb(1, 131, 230);
+    animation: uiverse723 3s ease-in-out infinite;
+    font-family: "PT Serif", serif;
+    
+  }
+  
+  @keyframes uiverse723 {
+    0%, 100% {
+      clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 
+       54% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+    }
+  
+    50% {
+      clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 
+       51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+    }
+  }
+
+  .content .slogan,.content .des, .content .buttons{
+    transform: translateY(50px);
+    filter: blur(20px);
+    opacity: 0;
+    animation: showContent 0.5s 1s linear 1 forwards;
+  }
+  @keyframes showContent{
+    to{
+        opacity: 1;
+        filter: blur(0);
+        transform: translateY(0);
+    }
+  }
+  .content .slogan{
+    animation-delay: .8s;
+  }
+  .content .des{
+    animation-delay: 1s;
+  }
+  .content .buttons{
+    animation-delay: 1.2s;
+  }
+/* section2*/
+  .section2{
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: 200;
+    /* border: 2px solid; */
+    height: 852px;
+}
+.cowgraze{
+    position: absolute;
+    /* width: 100%; */
+    object-fit: cover;
+    box-shadow: 0 -20px 13px rgba(0, 0, 0, 0.1);
+}
+.cards{
+position: relative;
+top: 200px;
+background-color:transparent;
+width: 90%;
+margin: auto;
+padding: 20px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+}
+/* From Uiverse.io by SteveBloX */ 
+.card {
+    box-sizing: border-box;
+    width: 330px;
+    height: 450px;
+    background: rgba(255, 255, 255, 0.58);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.22);
+    backdrop-filter: blur(6px);
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    /* transition: all 0.5s; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    color: black;
+    transition: transform 1.2s ease, opacity 0.5s ease;
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  /* .card.zoomed {
+    transform: scale(1);
+    opacity: 1;
+} */
+/* Default state (zoom in) */
+.card.zoom-in {
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* Zoom out state */
+.card.zoom-out {
+  transform: scale(0.7);
+  opacity: 0.4;
+}
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card:active {
+    transform: scale(0.95) rotateZ(1.7deg);
+  }
+
+
+
+  .cards .card{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    color: rgb(0, 145, 255);
+  }
+  .cards .card-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid  rgb(0, 145, 255);
+    object-fit: cover;
+  }
+  .cards h3{
+    font-family:"Poppins", sans-serif;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+
+  }
+  .cards p{
+    font-family: "Caveat", cursive;
+    font-size: 25px;
+  }
+  .heading{
+    position: absolute;
+    left: 42%;
+    top: 10%;
+    color: rgb(0, 145, 255);
+    font-family:"Poppins", sans-serif;
+font-size: 30px;
+letter-spacing: 5px;
+  }
+ 
