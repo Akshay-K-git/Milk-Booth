@@ -25,8 +25,8 @@ function Navbar() {
         }, []);
   return (
     <>
-    <header className={`navbar ${scrolling ? "scrolled" : ""}`}>
-    <Link to={'/'}><img src="./logo.png" width={'85px'} height={'45px'} alt="" /></Link>
+    <header className={`navbar ${scrolling ? "scrolled" : ""}`} >
+    <Link to={'/'}><img src="./logo.png" className='ms-3' width={'85px'} height={'45px'} alt="" /></Link>
     <nav className='text-uppercase'>
             
             <Link to={'/home'} className='link'>Home</Link>
