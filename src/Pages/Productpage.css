@@ -1,3 +1,69 @@
-.carousel{
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&family=Caveat:wght@400..700&family=Cookie&family=Dancing+Script:wght@400..700&family=Inconsolata:wght@200..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lalezar&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans+TC:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Orbitron:wght@400..900&family=Oxanium:wght@200..800&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=SUSE:wght@100..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+.carousel {
     margin-top: -60px;
+}
+
+.carouselimg {
+    object-fit: cover;
+}
+
+.item1 {
+    grid-area: one;
+    background-image: url('./one.jpg');
+    background-size: cover;
+    height: 600px;
+}
+
+.item2 {
+    grid-area: two;
+    background-image: url('./four.jpg');
+    background-size: cover;
+}
+
+.item3 {
+    grid-area: three;
+    background-image: url('./three.jpg');
+    background-size: cover;
+}
+
+.item4 {
+    grid-area: four;
+    background-image: url('./two.jpg');
+    background-size: cover;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'one one one two  three'
+        'one one one two  three'
+        'one one one four four';
+    gap: 15px;
+    /* background-color: #2196F3;   */
+    padding: 10px;
+}
+
+.grid-container img {
+    object-fit: cover;
+
+}
+
+.grid-container>div {
+    /* height: 600px; */
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform .2s;
+
+}
+.grid-container div :hover{
+    transform: scale(1.2);
+}
+.sell{
+    font-family: "Poppins", serif;
+    letter-spacing: 4px;
+    color:  rgb(0, 140, 221);
 }
