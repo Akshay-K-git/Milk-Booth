@@ -162,19 +162,19 @@
     object-fit: cover;
     box-shadow: 0 -20px 13px rgba(0, 0, 0, 0.1);
 }
-.cards{
+.cardsec{
 position: relative;
 top: 200px;
 background-color:transparent;
 width: 90%;
-margin: auto;
+/* margin: auto; */
 padding: 20px;
 display: flex;
 align-items: center;
 justify-content: space-around;
 }
 /* From Uiverse.io by SteveBloX */ 
-.card {
+.cardx {
     box-sizing: border-box;
     width: 330px;
     height: 450px;
@@ -201,48 +201,48 @@ justify-content: space-around;
     opacity: 1;
 } */
 /* Default state (zoom in) */
-.card.zoom-in {
+.cardx.zoom-in {
   transform: scale(1);
   opacity: 1;
 }
 
 /* Zoom out state */
-.card.zoom-out {
+.cardx.zoom-out {
   transform: scale(0.7);
   opacity: 0.4;
 }
   
-  .card:hover {
+  .cardx:hover {
     transform: scale(1.05);
   }
   
-  .card:active {
+  .cardx:active {
     transform: scale(0.95) rotateZ(1.7deg);
   }
 
 
 
-  .cards .card{
+  .cardsec .cardx{
     display: flex;
     flex-direction: column;
     padding: 20px;
     color: rgb(0, 145, 255);
   }
-  .cards .card-image{
+  .cardsec .card-image{
     width: 200px;
     height: 200px;
     border-radius: 50%;
     border: 4px solid  rgb(0, 145, 255);
     object-fit: cover;
   }
-  .cards h3{
+  .cardsec h3{
     font-family:"Poppins", sans-serif;
     letter-spacing: 3px;
     margin-top: 30px;
     margin-bottom: 0px;
 
   }
-  .cards p{
+  .cardsec p{
     font-family: "Caveat", cursive;
     font-size: 25px;
   }

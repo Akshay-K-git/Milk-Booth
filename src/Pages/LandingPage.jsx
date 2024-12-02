@@ -56,7 +56,7 @@ function LandingPage() {
                     <source src='./cowgrazing.mp4' type='video/mp4' />
                 </video>
                 <h1 className='heading'>MILMA UNITS </h1>               
-                 <div className='cards'>
+                 <div className='cardsec'>
                   
                      {cards.map((card) => {
                         // Use the `useInView` hook for each card
@@ -68,7 +68,7 @@ function LandingPage() {
                             <div
                             key={card.id}
                             ref={ref}
-                            className={`card ${inView ? "zoom-in" : "zoom-out"}`}
+                        className={`cardx ${inView ? "zoom-in" : "zoom-out"}`}
                         >
                             <img
                                 src={card.image}

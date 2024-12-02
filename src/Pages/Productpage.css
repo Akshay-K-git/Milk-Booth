@@ -18,6 +18,12 @@
     grid-area: two;
     background-image: url('./four.jpg');
     background-size: cover;
+    transition: transform .2s;
+
+}
+.item :hover{
+    transform: scale(1.2);
+
 }
 
 .item3 {
@@ -62,7 +68,7 @@
 .grid-container div :hover{
     transform: scale(1.2);
 }
-.sell{
+.sell,.milkpr{
     font-family: "Poppins", serif;
     letter-spacing: 4px;
     color:  rgb(0, 140, 221);
